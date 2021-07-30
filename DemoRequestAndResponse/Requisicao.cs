@@ -7,5 +7,7 @@ namespace DemoRequestAndResponse
         public IRestResponse RequisicaoPOST();
 
         public IRestResponse RequisicaoGET();
+
+        public IRestResponse RequisicaoPATCH();
     }
 }
